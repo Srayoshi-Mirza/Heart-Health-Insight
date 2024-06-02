@@ -1,0 +1,150 @@
+{
+  "name":"medicare-heart-disease-and-stroke-prevention-claims-data",
+  "title":"Medicare Heart Disease and Stroke Prevention Claims Data",
+  "description":"This dataset shows the Medicare Heart Disease and Stroke Prevention Claims Data based on Center for Medicare & Medicaid Services (CMS), Medicare Claims data 2004 forward. CMS compiles claims data for Medicare and Medicaid patients across a variety of categories and years. This includes Inpatient and Outpatient claims, Master Beneficiary Summary Files, and many other files.",
+  "documentation":"The data in this dataset were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. This is one of the datasets provided by the National Cardiovascular Disease Surveillance System. The system is designed to integrate multiple indicators from many data sources to provide a comprehensive picture of the public health burden of Cerebro-Vascular Disease (CVDs) and associated risk factors in the United States. The data are organized by location (national and state) and indicator.\n\nIndicators from this data source have been computed by personnel in CDC's Division for Heart Disease and Stroke Prevention (DHDSP). Indicators fall into two main categories: Cardiovascular Diseases and Risk Factors. Each category has subcategories, and indicators are organized under the subcategories. \n\nPriority Indicators are associated with priority areas, including ABCS, AHA 2020 Goals: Cardiovascular Health Metrics, Healthy People 2020, and Million Hearts. A priority indicator in this dataset is associated with one or more of the following priority areas:\n\nHealthy People 2020\n- Cardiovascular Diseases\n  - Acute Myocardial Infarction (Heart Attack)\n    - Rehabilitation (Heart Disease and Stroke Objective 22)\n  - Coronary Heart Disease\n    - Coronary Heart Disease Mortality (Heart Disease and Stroke Objective 2)\n  - Heart Failure\n    - Heart Failure Hospitalizations (Heart Disease and Stroke Objective 24)\n    - Heart Failure Hospitalizations (65+ years) (Heart Disease and Stroke Objective 24)\n    - Heart Failure Hospitalizations (65-74 years) (Heart Disease and Stroke Objective 24.1)\n    - Heart Failure Hospitalizations (75-84 years) (Heart Disease and Stroke Objective 24.2)\n    - Heart Failure Hospitalizations (85+ years) (Heart Disease and Stroke Objective 24.3)\n  - Stroke\n    - Cerebrovascular Disease Mortality (Heart Disease and Stroke Objective 3)\n    \n- Risk Factors\n  - Cholesterol Abnormalities\n    - Screening (Heart Disease and Stroke Objective 6)\n    - High Total Cholesterol (Heart Disease and Stroke Objective 7)\n    - Mean Total Cholesterol (Heart Disease and Stroke Objective 8)\n  - Hypertension\n    - Hypertension Prevalence (Heart Disease and Stroke Objective 5)\n    - Medication (Heart Disease and Stroke Objective 11)\n    - Prehypertension Prevalence (Heart Disease and Stroke Objective 9)\n    - Control (Heart Disease and Stroke Objective 12)\n  - Nutrition\n    - Mean Dietary Sodium (Nutrition and Weight Status Objective 19)\n  - Obesity\n    - Healthy Weight (Heart Disease and Stroke Objective 8)\n    - Prevalence (Nutrition and Weight Status Objective 9)\n\nMillion Hearts\u00ae\n- Cardiovascular Diseases\n  - Diseases of the Heart (Heart Disease)\n    - Hospitalizations\n    - Diseases of the Heart Mortality\n  - Acute Myocardial Infarction (Heart Attack)\n    - Prevalence\n    - Hospitalizations\n    - Acute Myocardial Infarction Mortality\n  - Coronary Heart Disease\n    - Prevalence\n    - Hospitalizations\n    - Coronary Heart Disease Mortality\n  - Stroke\n    - Prevalence\n    - Hospitalizations\n    - Cerebrovascular Disease Mortality\n\n- Risk Factors\n  - Aspirin Use\n    - Aspirin use for secondary prevention\n  - Hypertension\n    - Prevalence\n    - Awareness\n    - Medication\n    - Control\n  - Cholesterol Abnormalities\n    - Screening\n    - Recommended Statin Therapy\n    - Statin Use\n    - High Total Cholesterol\n    - Low HDL Cholesterol\n\nThe main indicator category used for this dataset is Cardiovascular Disease. Indicators for Cardiovascular Diseases are organized under the following subcategories:\n\n- Major Cardiovascular Disease\n  - Prevalence\n  - Cardiovascular Disease Mortality\n  - Hospitalizations\n  - In-Hospital Mortality\n  - Diseases of the Heart (Heart Disease)\n\n- Diseases of the Heart Mortality\n  - Hospitalizations\n  - In-Hospital Mortality\n  - Acute Myocardial Infarction (Heart Attack)\n\n- Prevalence\n  - Acute Myocardial Infarction Mortality\n  - Hospitalizations\n  - In-Hospital Mortality\n  - Rehabilitation\n- Coronary Heart Disease\n  - Prevalence\n  - Coronary Heart Disease Mortality\n  - Hospitalizations\n  - In-Hospital Mortality\n- Heart Failure\n  - Prevalence\n  - Heart Failure Mortality\n  - Hospitalizations\n  - In-Hospital Mortality\n  - Heart Failure Hospitalizations (65+ years)\n  - Heart Failure Hospitalizations (65-74 years)\n  - Heart Failure Hospitalizations (75-84 years)\n  - Heart Failure Hospitalizations (85+ years)\n- Stroke\n  - Prevalence\n  - Cerebrovascular Disease Mortality\n  - Hemorrhagic Stroke Mortality\n  - Ischemic Stroke Mortality\n  - Hospitalizations\n  - In-Hospital Mortality \n\nThe values used in this dataset are of crude type. Also, the statistically unstable estimates have not been presented [numerator <10].",
+  "date_created":"2016-06-24",
+  "last_updated":"2023-08-25",
+  "version":"2023-08-25",
+  "update_frequency":"Irregular",
+  "temporal_coverage":"2004-2021",
+  "spatial_coverage":"United States",
+  "complexity":"Simple",
+  "license":"John Snow Labs Standard License",
+  "sources":[
+    {
+      "title":"John Snow Labs"
+    },
+    {
+      "title":"Centers for Disease Control and Prevention"
+    }
+  ],
+  "contributors":[
+    {
+      "title":"John Snow Labs",
+      "email":"support@JohnSnowLabs.com",
+      "uri":"http://www.JohnSnowLabs.com",
+      "role":"author"
+    }
+  ],
+  "source_license_requirements":"N/A",
+  "citation":"N/A",
+  "keywords":[
+    "Claims",
+    "Heart Disease",
+    "Stroke",
+    "Stroke Prevention",
+    "Cardiovascular Disease",
+    "Chronic Conditions",
+    "Chronic Illnesses"
+  ],
+  "other_titles":[
+    "Center for Medicare and Medicaid Services Claims Data for FY 2004-2013",
+    "Medicare Heart Disease and Stroke Prevention Claims Data by CMS"
+  ],
+  "resources":[
+    {
+      "path":"data.csv",
+      "name":"medicare-heart-disease-and-stroke-prevention-claims-data-csv",
+      "format":"csv",
+      "mediatype":"text/csv",
+      "schema":{
+        "fields":[
+          {
+            "name":"Year",
+            "description":"It indicates the year of data.",
+            "type":"date",
+            "format":"any"
+          },
+          {
+            "name":"State_Abbreviation",
+            "description":"It indicates the abbreviation of different locations and states.",
+            "type":"string"
+          },
+          {
+            "name":"State",
+            "description":"It includes the description of different locations and states.",
+            "type":"string"
+          },
+          {
+            "name":"Disease_Topic",
+            "description":"It includes the topic for different diseases.",
+            "type":"string"
+          },
+          {
+            "name":"Disease_Indicator",
+            "description":"It indicates description for specific diseases among patients.",
+            "type":"string"
+          },
+          {
+            "name":"Data_Value_Unit",
+            "description":"It indicates the Data Value Unit (%, rate per 100,000, etc.).",
+            "type":"string"
+          },
+          {
+            "name":"Data_Value",
+            "description":"It includes the Data value (point estimate).",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Confidence_Limit_Low",
+            "description":"It identifies the lower confidence limit of the number.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Confidence_Limit_High",
+            "description":"It identifies the high confidence limit of the number.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Breakout_Category",
+            "description":"It identifies the breakout group description for each category.",
+            "type":"string"
+          },
+          {
+            "name":"Breakout_Variables",
+            "description":"It identifies the variables for each breakout category.",
+            "type":"string"
+          },
+          {
+            "name":"Topic_ID",
+            "description":"It includes the Topic lookup value.",
+            "type":"string"
+          },
+          {
+            "name":"Indicator_ID",
+            "description":"It identifies the indicator id of the data value.",
+            "type":"string"
+          },
+          {
+            "name":"Breakout_Category_ID",
+            "description":"It includes the breakout id of given category.",
+            "type":"string"
+          },
+          {
+            "name":"Breakout_ID",
+            "description":"It identifies the Break out group lookup value.",
+            "type":"string"
+          },
+          {
+            "name":"Location_ID",
+            "description":"It identifies the Location id of the value.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
