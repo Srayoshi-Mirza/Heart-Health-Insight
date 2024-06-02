@@ -1,2 +1,2 @@
-# Heart-Health-Insight
-This project uses two datasets to predict heart disease and analyze trends in Medicare claims related to heart disease and stroke prevention. It includes data cleaning, EDA, predictive modeling, time series analysis, and visualization, providing comprehensive insights for healthcare planning and intervention.
+# Heart Health Insight: Predictive Modeling and Trend Analysis of Heart Disease and Medicare Claims
+This project combines predictive modeling and time series analysis to provide comprehensive insights into heart disease risk factors and trends in Medicare claims related to heart disease and stroke prevention. By leveraging two distinct datasets, we aim to identify key predictors of heart disease, analyze historical trends in healthcare claims, and forecast future claims to support effective healthcare planning and intervention strategies.
