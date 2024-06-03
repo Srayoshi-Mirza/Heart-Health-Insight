@@ -1,5 +1,5 @@
 # Heart Health Insight: Predictive Modeling and Trend Analysis of Heart Disease and Medicare Claims
-This project combines predictive modeling and time series analysis to provide comprehensive insights into heart disease risk factors and trends in Medicare claims related to heart disease and stroke prevention. By leveraging two distinct datasets, we aim to identify key predictors of heart disease, analyze historical trends in healthcare claims, and forecast future claims to support effective healthcare planning and intervention strategies.
+This repository contains a data science project focused on predictive modeling and trend analysis of heart disease and behavioral risk factors. By leveraging two distinct datasets, we aim to identify key predictors of heart disease, analyze historical trends in risk factors, and forecast future trends to support effective healthcare planning and intervention strategies. The project includes data cleaning, exploratory data analysis, feature engineering, modeling, and visualization.
 
 ## Dataset
 1. ***[Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset):*** Clinical attributes and heart disease presence.
