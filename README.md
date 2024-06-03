@@ -3,5 +3,5 @@ This repository contains a data science project focused on predictive modeling a
 
 ## Dataset
 1. ***[Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset):*** Clinical attributes and heart disease presence.
-2. ***[Behavioral Risk Factor Data](https://data.world/us-hhs-gov/c5c07d9c-863c-4d4d-b519-4a2662032fb8):*** Heart disease & stroke prevention, modifiable risk factors from 2011 to present.
+2. ***[Behavioral Risk Factor Data](https://data.world/us-hhs-gov/c5c07d9c-863c-4d4d-b519-4a2662032fb8):*** Heart disease & stroke prevention, modifiable risk factors from 2011 to 2015.
 
